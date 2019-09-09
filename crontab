@@ -1,1 +1,1 @@
-0 0 * * * node /root/nodemail/main.js >> /root/nodemail/crontab.log
+10 0 * * * node /root/nodemail/main.js >> /root/nodemail/crontab.log

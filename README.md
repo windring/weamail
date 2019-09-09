@@ -5,6 +5,8 @@
 
 > Weather mail, 每日天气邮件提醒。
 
+weamail 将会在每日 0:10 向发件人发送天气提醒邮件，具体的时间可以修改 crontab 文件。
+
 ## Install
 
 ```sh

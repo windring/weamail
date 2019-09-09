@@ -5,8 +5,8 @@ const auth = {
     port: 465, // smtp 端口
     secure: true, // 是否使用 SSL
     auth: {
-        user: '****', // 用户名
-        pass: '****', // 密码
+      user: '****', // 用户名
+      pass: '****', // 密码
     },
   },
 };
@@ -24,11 +24,11 @@ const config = [
     to: '****@163.com',
     subject: 'Hello 🐏',
     location: 'CN****',
-    name: 'name'
+    name: 'name',
   },
 ];
 
 module.exports = {
   auth,
   config,
-}
+};

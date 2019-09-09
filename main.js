@@ -6,7 +6,7 @@ const json2html = function json2html(json, cfg) {
   const obj = json.HeWeather6[0].daily_forecast;
   let html = `${cfg.name}，早上好<br>`;
   html += '<img src="http://dl.weshineapp.com/gif/20190524/ce5fb80cb90597a5a670d42dd5c66caf.gif"><br>';
-  const it = 0;
+  const it = 1;
   html += `今天是 ${obj[it].date}<br>`
     + `日间天气：${obj[it].cond_txt_d}<br>`
     + `夜间天气：${obj[it].cond_txt_n}<br>`
